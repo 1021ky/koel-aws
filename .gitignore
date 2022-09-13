@@ -69,3 +69,10 @@ Temporary Items
 .apdisk
 
 .env
+
+# Terraform files
+*/.terraform/*
+*/.terraform.lock.hcl
+
+# vscode local hisotry file
+.history/*
