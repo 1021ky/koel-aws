@@ -20,7 +20,7 @@ resource "aws_efs_mount_target" "efs-mount-target-2a" {
   file_system_id  = aws_efs_file_system.koel-efs.id
   subnet_id       = aws_subnet.ecs-public-subnet1.id
   security_groups = [aws_security_group.koel-sg.id]
-  
+
 }
 
 resource "aws_efs_mount_target" "efs-mount-target-2c" {
